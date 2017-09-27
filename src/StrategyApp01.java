@@ -19,19 +19,17 @@ class Data {
 }
 
 class SelectionSorter implements Sorter {
-	public void sort(int[] d) {
-		System.out.println("selection sort done");
-	}
+	// YOU CODE HERE
 }
 
 class BubbleSorter implements Sorter {
 	public void sort(int[] d) {
-		System.out.println("BubbleSorter sort done");
+		// YOU CODE HERE
 	}
 }
 
 interface Sorter{
-	public void sort(int[] d);
+	// YOU CODE HERE
 }
 
 
@@ -39,15 +37,13 @@ interface Sorter{
 public class StrategyApp01 {
 
 	public static void main(String[] args) {
-
+		// Use SELECTION Sort
 		Sorter s1 = new SelectionSorter();
-		Data data = new Data(s1);
+		// ONE LINE CODE
 		data.sort();
 		data.show();
 
-		Sorter s2 = new BubbleSorter();
-		data.setSorter(s2);
-		data.sort();
-		data.show();
+		// USE BUBBLE SORT
+		// YOU CODE HERE
 	}
 }
