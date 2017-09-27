@@ -14,11 +14,12 @@ class Counter extends Observable {
 	public void incCounter() {
 		counter++;
 		setChanged();
-		notifyObservers(new Integer(counter));
+		// ONE LINE CODE
 	}
 
 	// YOU CODE HERE
 	public void decCounter() {
+		// ?
 	}
 
 
